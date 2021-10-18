@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIBE</title>
-    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="css/web.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
 <script src="/web.js"></script>
+
 </head>
 <body>
     <!-- MAIN DIV -->
@@ -26,18 +27,18 @@
             <div class="per_info flex cent"> <!--HEADER-->
                 <div class="per_lt"> <!--HEADER Left-->
                     <span class="dp flex cent">
-                        <img class="curs" src="/dp.jpg" alt=""><p class="name"> NAMAN</p>
+                        <img class="curs" src="/images/dp.jpg" alt=""><p class="name"> NAMAN</p>
                     </span>
                 </div>
                 <div class="per_rt flex"> <!--HEADER Right-->
                     <div class="logo_div">
                         <span class="logo">
-                            <button class="curs"><img src="/newchat.png" alt=""></button>
+                            <button class="curs"><img src="/images/newchat.png" alt=""></button>
                         </span>
                     </div>
                     <div class="logo_div">
                         <span class="logo">
-                            <button class="curs"><img src="/option.png" alt=""></button>
+                            <button class="curs"><img src="/images/option.png" alt=""></button>
                         </span>
                     </div>
                 </div>
@@ -47,103 +48,102 @@
                 <div class="bar">
                     <div class="logo_div">
                         <span class="logo">
-                            <button class="curs"><img src="/search1.png" alt=""></button>
+                            <button class="curs"><img src="/images/search1.png" alt=""></button>
                         </span>
                     </div>
-                    <div class="txt">
-                        <input type="text" name="name" class="s_name" placeholder="Search or start new chat">
+                    <div>
+                        <input type="text" name="name" autocomplete="off" class="s_name" placeholder="Search or start new chat">
                     </div>
                 </div>
             </div>
-            <div  id="chats">
-                <tbody>
+            <div  class="chats scroll">
                 <table class="tab">
                     <tr>
                         <td>
-                            <img class="contact curs" src="/ayu.jpeg" alt="">
+                            <img class="contact curs" src="/images/ayu.jpeg" alt="">
                         </td>
-                        <td class="name c_name item">Ayush <br><small class="s_name">Haa bhai ho gaya</small></td>
-                        <td class="name samay item"><small class="s_name" id="time"></small></td>
+                        <td class="name c_name item hide">Ayush <br><small class="s_name hide" >Haa bhai ho gaya</small></td>
+                        <td class="name samay item"><small class="t_name" id="time"></small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/blank.png" alt="">
                         </td>
+
                         <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name samay item"><small class="t_name">4:09  PM</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/venom.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">Tom <br><small class="s_name">Bhai kaisi lagi Venom?</small></td>
+                        <td class="name samay item"><small class="t_name">1:17  PM</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/goog.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">Sundar <br><small class="s_name">Kat rha h kya kare</small></td>
+                        <td class="name samay item"><small class="t_name">11:01  AM</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/godspeed.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">GODSPEED<br><small class="s_name">ZOOMMMMMMM.....</small></td>
+                        <td class="name samay item"><small class="t_name">9:49  AM</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/jss.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">JSS CSE-B<br><small class="s_name">Tomorrow is a holiday</small></td>
+                        <td class="name samay item"><small class="t_name">8:04  AM</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/ramu.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">Pranjal <br><small class="s_name">Are hum bahar h abhi</small></td>
+                        <td class="name samay item"><small class="t_name">Yesterday</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/zuck.jpeg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">Zuck<br><small class="s_name">Bhai bacha le data leak ho gaya</small></td>
+                        <td class="name samay item"><small class="t_name">Yesterday</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/jaan.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">Jaan <br><small class="s_name">I love you</small></td>
+                        <td class="name samay item"><small class="t_name">2 days ago</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/photu.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">Credit Card <br><small class="s_name">Card lelo bhaiya</small></td>
+                        <td class="name samay item"><small class="t_name">3 days ago</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/nibba.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">Ravi<br><small class="s_name">Done</small></td>
+                        <td class="name samay item"><small class="t_name">4 days ago</small></td>
                     </tr>
                     <tr>
                         <td>
-                            <img class="contact curs" src="/blank.png" alt="">
+                            <img class="contact curs" src="/images/boi.jpg" alt="">
                         </td>
-                        <td class="name c_name item">Puneet <br><small class="s_name">Nhi aaj nhi</small></td>
-                        <td class="name samay item"><small class="s_name">4:09  PM</small></td>
+                        <td class="name c_name item">School wala <br><small class="s_name">Kaisa h bhai???</small></td>
+                        <td class="name samay item"><small class="t_name">4 days ago</small></td>
                     </tr>
                 </table>
-            </tbody>
             </div>
         </div>
         <!-- Right Side DIV -->
@@ -151,25 +151,35 @@
             <div class="per_info flex cent">
                 <div class="per_lt">
                 <span class="dp flex cent">
-                    <img class="curs" src="/ayu.jpeg" alt=""><p class="name">Ayush</p>
+                    <img class="curs" src="/images/ayu.jpeg" alt=""><p class="name">Ayush</p>
                 </span>
             </div>
             <div class="per_rt flex">
                 <div class="logo_div">
                     <span class="logo">
-                        <button class="curs"><img src="/search1.png" alt=""></button>
+                        <button class="curs"><img src="/images/search1.png" alt=""></button>
                     </span>
                 </div>
                 <div class="logo_div">
                     <span class="logo">
-                        <button class="curs"><img src="/option.png" alt=""></button>
+                        <button class="curs"><img src="/images/option.png" alt=""></button>
                     </span>
                 </div>
             
             </div>
         </div>
-            <div id="window">chat window</div>
-            <div id="type">emoji,attachment,message,mic</div>
+            <div id="window">
+                <div class="out"></div>
+            </div>
+            <div id="type" class="flex search">
+                <span class="logo"><button class="curs"> <img src="/Images/imoji.png" alt=""></button></span>
+                <span class="logo"><button class="curs"> <img src="/Images/attach.png" alt=""></button></span>
+                <div class=" bar">
+                    <input type="text" autocomplete="off" name="name" class="s_name name" placeholder="Type Your Message Here">
+                </div>
+                <span class="logo"><button class="curs"> <img src="/Images/mic.png" alt=""></button></span>
+                
+            </div>
         </div>
     </div>
 </div>
